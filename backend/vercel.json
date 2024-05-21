@@ -1,15 +1,4 @@
 {
-<<<<<<< HEAD
-    "version": 2,
-    "builds": [
-      { "src": "app/main.py", "use": "@vercel/python" }
-    ],
-    "routes": [
-      { "src": "/(.*)", "dest": "app/main.py" }
-    ]
-  }
-  
-=======
   "version": 2,
   "builds": [
     { "src": "app/main.py", "use": "@vercel/python" }
@@ -18,4 +7,3 @@
     { "src": "/(.*)", "dest": "app/main.py" }
   ]
 }
->>>>>>> origin/main
